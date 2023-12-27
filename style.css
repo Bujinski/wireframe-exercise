@@ -1,15 +1,31 @@
+nav {
+  display: flex;
+}
 ul {
-  flex
+  display: flex;
+  align-items: center;
 }
-
 section {
-  flex
+  display: flex;
+  gap: 30px;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 960px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
 
 p {
   width: 450px;
-  height: 300px;
+  height: 100px;
   overflow: auto;
 }
 
@@ -26,3 +42,4 @@ footer {
   height: 150px;
   background-color: #000;
 }
+
