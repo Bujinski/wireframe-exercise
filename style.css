@@ -1,0 +1,28 @@
+ul {
+  flex
+}
+
+section {
+  flex
+}
+
+
+p {
+  width: 450px;
+  height: 300px;
+  overflow: auto;
+}
+
+
+button:hover{
+  background-color: blue;
+}
+
+button {
+  transition: 350ms;
+}
+
+footer {
+  height: 150px;
+  background-color: #000;
+}
